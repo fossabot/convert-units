@@ -3,7 +3,7 @@ export type PowerUnits = PowerMetricUnits | PowerImperialUnits;
 export type PowerSystems = 'metric' | 'imperial';
 
 export type PowerMetricUnits = 'W' | 'mW' | 'kW' | 'MW' | 'GW' | 'PS';
-export type PowerImperialUnits = 'Btu/s' | 'ft-lb/s' | 'hp';
+export type PowerImperialUnits = 'Btu/s' | 'ft-lb/s' | 'hp' | 'Btu/h' | 'kBtu/h' | 'Ton';
 
 const metric: Record<PowerMetricUnits, Unit> = {
   W: {
@@ -58,12 +58,33 @@ const imperial: Record<PowerImperialUnits, Unit> = {
     },
     to_anchor: 778.16937,
   },
+  'Btu/h': {
+    name: {
+      singular: 'British thermal unit per hour',
+      plural: 'British thermal units per hour',
+    },
+    to_anchor: 0.21615815833,
+  },
+  'kBtu/h': {
+    name: {
+      singular: 'British thermal unit per second',
+      plural: 'British thermal units per second',
+    },
+    to_anchor: 0.00021615815833,
+  },
   'ft-lb/s': {
     name: {
       singular: 'Foot-pound per second',
       plural: 'Foot-pounds per second',
     },
     to_anchor: 1,
+  },
+  'Ton': {
+    name: {
+      singular: 'Refrigeration Ton',
+      plural: 'Refrigeration Tons'
+    },
+    to_anchor: 0.00001801317
   },
   hp: {
     name: {
