@@ -2,6 +2,7 @@ convert-units
 =============
 
 [![Downloads](https://img.shields.io/npm/dm/convert-units.svg)](https://www.npmjs.com/package/convert-units)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnorthshoreio%2Fconvert-units.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnorthshoreio%2Fconvert-units?ref=badge_shield)
 
 A handy utility for converting between quantities in different units.
 
@@ -1258,3 +1259,7 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnorthshoreio%2Fconvert-units.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnorthshoreio%2Fconvert-units?ref=badge_large)
